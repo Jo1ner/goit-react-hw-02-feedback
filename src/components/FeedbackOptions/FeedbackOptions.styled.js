@@ -13,4 +13,9 @@ export const ButtonFeedbackOptions = styled.button`
   font-weight: 600px;
   background-color: #caf2e5;
   border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #9fcdbe;
+  }
 `;
